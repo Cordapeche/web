@@ -1,0 +1,23 @@
+{
+  "name": "camara",
+  "version": "1.0.0",
+  "description": "https://la-camara.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/La-camara/web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/La-camara/web/issues"
+  },
+  "homepage": "https://github.com/La-camara/web#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  }
+}
