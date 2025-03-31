@@ -7,10 +7,11 @@
         <link href="./src/output.css" rel="stylesheet">
 
         <?php
-        // if ($_SERVER['SERVER_NAME'] == 'localhost') {
-        //    echo '<link href="www/public_html/ibra/views/src/output.css" rel="stylesheet">';
-        //  }
+         if ($_SERVER['SERVER_NAME'] == 'localhost') {
+            echo '<link href="www/public_html/ibra/views/src/output.css" rel="stylesheet">';
+          }
         ?>
+        
     </head>
     <body>
 
@@ -50,6 +51,7 @@
                             <li class="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0"><a href="javascript: void(0)">Cámara</a></li>                                
                             <li class="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0"><a href="javascript: void(0)">Agenda</a></li>                                
                             <li class="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0"><a href="index.php?c=public_html&a=blog">Blog</a></li>                                
+                            <li class="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0"><a href="blog.php">Blog 2</a></li>                                
                             <li class="text-gray-600 hover:text-gray-800 cursor-pointer md:ml-10 pt-10 md:pt-0"><a href="javascript: void(0)">Contact</a></li>
                         </ul>
                     </div>
